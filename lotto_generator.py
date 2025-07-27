@@ -18,10 +18,10 @@ who = st.selectbox("누가 번호를 생성하나요?", options)
 
 # 이미지 경로 매핑
 image_paths = {
-    "성욱": "images/seongwook.jpg",
-    "유정": "images/youjeong.jpg",
-    "춘배": "images/choonbae.jpg",
-    "덕배": "images/duckbae.jpg",
+    "성욱": "seongwook.jpg",
+    "유정": "youjeong.jpg",
+    "춘배": "choonbae.jpg",
+    "덕배": "duckbae.jpg",
 }
 
 if who != "-- Please select --":
